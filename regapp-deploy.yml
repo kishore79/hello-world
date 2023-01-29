@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: valaxy/regapp
+        image: 172.0.0.29:5000/mywebnew 
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
